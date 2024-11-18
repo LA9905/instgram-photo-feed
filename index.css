@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.post{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 20px auto;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.pos-header span{
+    color: grey;
+}
+.post-image img{
+    width: 100%;
+    height: 300px;
+}
+.post-description{
+    margin: 5px;
+}
